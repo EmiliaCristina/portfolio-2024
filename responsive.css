@@ -1,0 +1,117 @@
+@media (orientation: portrait) {
+  /* Portrait(ì„¸ë¡œ) ëª¨ë“œì¼ ë•Œ ì ìš©í•  CSS */
+  .main-avatars-wrap span img {
+    width: 320px;
+    margin: 0 -50px -6px;
+  }
+}
+@media (orientation: landscape) {
+  /* Landscape(ê°€ë¡œ) ëª¨ë“œì¼ ë•Œ ì ìš©í•  CSS */
+  canvas {
+    height: 100vh;
+  }
+  .section-con {
+    justify-content: center;
+    padding-top: 0;
+  }
+  .content-con {
+    justify-content: center;
+    padding-top: 0;
+  }
+  .section-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  .section-inner-con {
+    width: 40%;
+  }
+  .content-inner {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+  .content-inner-con {
+    width: 48%;
+  }
+  .t-right {
+    text-align: right;
+  }
+  .top-plus {
+    margin-top: 12rem;
+  }
+  .center-line {
+    margin: 5rem 0;
+    height: 10rem;
+  }
+  .foot-link {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 600px) {
+  .notice {
+    display: inline-block;
+  }
+  .member {
+    margin-top: -40vh;
+  }
+  .member-con {
+    width: 500px;
+  }
+  .roadmap-con {
+    width: calc(50% - 1rem);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 0.9rem;
+  }
+  .main-copy-wrap {
+    font-size: 12rem;
+  }
+  .main-key-wrap {
+    font-size: 2.7rem;
+  }
+  .main-con-wrap {
+    font-size: 4rem;
+  }
+  .team-copy {
+    margin: 10vh;
+  }
+  .roadmap-con {
+    width: calc(33.333% - 1rem);
+  }
+  .r-tit {
+    font-size: 1.2rem;
+  }
+  .member {
+    margin-top: -50vh;
+  }
+  .member-con {
+    width: 650px;
+  }
+  .team-copy1-wrap, .team-copy2-wrap, .team-copy3-wrap {
+    font-size: 9rem;
+  }
+  .foot-copy {
+    font-size: 11vw;
+  }
+}
+
+@media (min-width: 1240px) {
+  .member {
+    margin-top: -60vh;
+  }
+}
+@media (max-width: 600px) {
+  .name {
+    font-size: 10px;
+  }
+.bgsmallscreen {
+   background: rgba(255, 122, 89, .8)!important;
+  
+  }
+
+
+}

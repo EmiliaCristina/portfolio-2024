@@ -1,0 +1,59 @@
+/* ë¡œë”©ê´€ë ¨ */
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  background: white;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.before-load .loading {
+  opacity: 1;
+}
+
+@keyframes loading-spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loading-circle-ani {
+  0% {
+    stroke-dashoffset: 157;
+  }
+  75% {
+    stroke-dashoffset: -147;
+  }
+  100% {
+    stroke-dashoffset: -157;
+  }
+}
+
+.loading-circle {
+  width: 100px;
+  height: 100px;
+  animation: loading-spin 2s infinite;
+}
+
+.loading-circle img { 
+  width: 100px;
+  height: 100px;
+  /* animation: loading-circle-ani 1s infinite; */
+}
+
+.loading-circle circle {
+  stroke: #171010;
+  stroke-width: 4;
+  /* getTotalLength()ë¡œ strokeì˜ ê¸¸ì´ë¥¼ ì–»ì–´ì˜¬ ìˆ˜ ìžˆìŒ */
+  stroke-dasharray: 157, 157;
+  stroke-dashoffset: 0;
+  fill: transparent;
+  animation: loading-circle-ani 1s infinite;
+}
