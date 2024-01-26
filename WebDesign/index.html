@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS-only Marquee Menu Effect | Codrops</title>
+	<meta name="description" content="A menu with a css-only marquee hover effect" />
+	<meta name="keywords" content="marquee, css, animation, loop, infinite, hover, menu, navigation" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="https://use.typekit.net/zhq0vyf.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<script>
+	document.documentElement.className = "js";
+	var supportsCssVars = function() { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
+	supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+	</script>
+	<!--script src="//tympanus.net/codrops/adpacks/analytics.js"></script-->
+</head>
+
+<body class="demo-1">
+	<main>
+		<div class="frame">
+			<div class="frame__title-wrap">
+				<h1 class="frame__title">Some Website links</h1>
+				<p class="frame__info">based on my Work </p>
+			</div>
+			<div class="frame__links">
+				<a href="../portfolio.html">Go back</a>
+
+			</div>
+		</div>
+		<nav class="menu">
+			<div class="menu__item">
+				<a href="https://officinadelmostro.it/"  class="menu__item-link">officinadelmostro</a>
+				<img class="menu__item-img" src="img/1.jpg" alt="Some image"/>
+				<div class="marquee">
+					<div class="marquee__inner" aria-hidden="true">
+						<span>OM | design</span>
+						<span>Freelance</span>
+						<span>Website</span>
+						<span>Wordpress</span>
+					</div>
+				</div>
+			</div>
+			<div class="menu__item">
+				<a href="https://oneapplemenu.my.canva.site/oneapple-menu/" class="menu__item-link">oneapple 2023</a>
+				<img class="menu__item-img" src="img/2.jpg" alt="Some image"/>
+				<div class="marquee">
+					<div class="marquee__inner" aria-hidden="true">
+						<span>oneapple</span>
+						<span>QR code Menu</span>
+						<span>Cocktail bar</span>
+						<span>Canva</span>
+					</div>
+				</div>
+			</div>
+			<div class="menu__item">
+				<a href="https://emiliacristina.github.io/oneappleMenu/index.html" class="menu__item-link">oneapple 2022</a>
+				<img class="menu__item-img" src="img/3.jpg" alt="Some image"/>
+				<div class="marquee">
+					<div class="marquee__inner" aria-hidden="true">
+						<span>Cocktail bar</span>
+						<span>Menu</span>
+						<span>Github</span>
+						<span>Page</span>
+					</div>
+				</div>
+			</div>
+			<div class="menu__item">
+				<a href="https://emiliacristina.github.io/portfolio2022/" class="menu__item-link">portfolio 2022</a>
+				<img class="menu__item-img" src="img/4.jpg" alt="Some image"/>
+				<div class="marquee">
+					<div class="marquee__inner" aria-hidden="true">
+						<span>Personal</span>
+						<span>Portfolio</span>
+						<span>2022</span>
+						<span>Github</span>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="menu__item">
+				<a href="https://codepen.io/emiliacristina/pen/YzGEKow" class="menu__item-link">three js</a>
+				<img class="menu__item-img" src="img/6.jpg" alt="Some image"/>
+				<div class="marquee">
+					<div class="marquee__inner" aria-hidden="true">
+						<span>Mouse move</span>
+						<span>Interactive</span>
+						<span>Background</span>
+						<span>Codepen</span>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="menu__item">
+				<a href="https://lorenzoberardicfa.it/" class="menu__item-link">LB Consulting</a>
+				<img class="menu__item-img" src="img/7.jpg" alt="Some image"/>
+				<div class="marquee">
+					<div class="marquee__inner" aria-hidden="true">
+						<span>Freelance</span>
+						<span>Financial</span>
+						<span>Advisor</span>
+						<span>Elementor</span>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="menu__item">
+				<a  href="https://codepen.io/emiliacristina/pen/QWmYEjq"class="menu__item-link">webgl play</a>
+				<img class="menu__item-img" src="img/5.jpg" alt="Some image"/>
+				<div class="marquee">
+					<div class="marquee__inner" aria-hidden="true">
+						<span>Interactive</span>
+						<span>Background</span>
+						<span>Codepen</span>
+
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div class="frame">
+			<p>Web design by <a href="#">Duculet Emilia Cristina</a></p>
+		</div>
+	</main>
+	<!--script src="https://tympanus.net/codrops/adpacks/cda.js"></script-->
+</body>
+
+</html>
